@@ -12,11 +12,16 @@
 
 </head>
 <body>
-    <div class="container">
+    <div class="container presentacion">
         <p><h2>Ejemplo, traer datos as&iacute;ncronicamente</h2></p>
-        <input class="btn btn-primary" type="submit" value="Traer datos js" onclick="getRecetas()">
-        <input class="btn btn-primary" type="submit" value="Traer datos jQuery" onclick="getRecetasJquery()">
+        <div class="botones">
+            <button class="btn btn-primary" type="submit" onclick="getRecetas()">Traer datos js</button>
+            <button class="btn btn-primary" type="submit" onclick="getRecetasJquery()">Traer datos jquery</button>
+            <button class="btn btn-primary" type="submit" onclick="Limpiar()">Limpiar tabla</button>
+        </div><br>
+
     </div><br>
+    
     <div class="container">
         <table id="thisTable" class="table table-striped">
             <thead>
@@ -28,9 +33,8 @@
                 </tr>
             </thead>
             
-            <tbody id="aquiRecetas">
+            <tbody id="aquiRecetas"></tbody>
 
-            </tbody >
         </table>
     </div>
     

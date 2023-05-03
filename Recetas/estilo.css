@@ -1,3 +1,24 @@
 body{
     font-family: Arial;
+    background-color: darksalmon;
+    margin: 10px 10px;
+}
+
+table{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.presentacion{
+    background-color: cornflowerblue;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.botones{
+    background-color: azure;
+    padding: 10px 10px;
+    display: inline-block;
+    border-radius: 10px;
+
 }
